@@ -1,9 +1,8 @@
-def myTheme():
+def standardTheme():
     # Typography
-    font = "Lato"
-    # At Urban it's the same font for all text but it's good to keep them separate in case you want to change one later.
-    labelFont = "Lato" 
-    sourceFont = "Lato"
+    font = "Avenir"
+    labelFont = "Avenir" 
+    sourceFont = "Avenir"
     fontColor = '#4d4d4d'
     # Axes
     axisColor = "#DEDDDD"
