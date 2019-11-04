@@ -11,8 +11,10 @@ def standardTheme():
     backgroundColor = '#ffffff'
 
     titleFontSize = 20
+    titleFontWeight=300
     subTitleFontSize = 15
     axisTitleFontSize = 12
+    axisTitleFontWeight=400
     textFontSize = 12
     labelFontSize = 10
 
@@ -38,6 +40,7 @@ def standardTheme():
         "config": {
             "title": {
                 "fontSize": titleFontSize,
+                "fontWeight": titleFontWeight,
                 "font": font,
                 "anchor": "start", # equivalent of left-aligned.
                 "color": fontColor,
@@ -59,6 +62,7 @@ def standardTheme():
                 "tickColor": axisColor,
                 "titleFont": font,
                 "titleFontSize": axisTitleFontSize,
+                "titleFontWeight": axisTitleFontWeight,
                 "titlePadding": 10, # guessing, not specified in styleguide
             },
             "axisY": {
@@ -125,5 +129,9 @@ def standardTheme():
                 "fill": markColor,
                 "strokeWidth": 0,
             },
+            "header":{
+                "titleFontSize": axisTitleFontSize,
+                "titleFontWeight": axisTitleFontWeight
+            }
         }
     }
