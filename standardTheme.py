@@ -9,6 +9,7 @@ def standardTheme():
     gridColor = "#DEDDDD"
     markColor = "#1696d2"
     backgroundColor = '#ffffff'
+    background = 'white'
 
     titleFontSize = 20
     titleFontWeight=300
