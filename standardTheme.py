@@ -1,14 +1,13 @@
 def standardTheme():
     # Typography
-    font = "Avenir"
-    labelFont = "Avenir" 
-    sourceFont = "Avenir"
+    font = "Arial"
+    labelFont = "Arial" 
+    sourceFont = "Arial"
     fontColor = '#4d4d4d'
     # Axes
     axisColor = "#DEDDDD"
     gridColor = "#DEDDDD"
     markColor = "#1696d2"
-    backgroundColor = '#ffffff'
     background = 'white'
 
     titleFontSize = 20
